@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto';
+    background-color: black;
+    color: white;
+    
+}
+
+.choise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.move-icon{
+    height: 50px;
+    
+}
+
+.move-button{
+    background-color: transparent;
+    border: none;
+    background-color: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.move-button:hover{
+    border: 3px solid yellow;
+}
+
+.score{
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 40px;
+    text-align: center;
+    margin: 0 40px;
+}
+
+.result{
+    padding: 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-reset{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    outline: none;
+    
+}
+
+.button-reset button:hover{
+    background-color: rgba(255, 255, 0, 0.61);
+    transition: 0.5s;
+}
+
+.final-result{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
