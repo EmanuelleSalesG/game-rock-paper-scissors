@@ -51,15 +51,17 @@ body{
     margin: 0 40px;
 }
 
-.result{
+.reset-button, .auto-play-button{
     padding: 12px;
     border-radius: 20px;
     font-weight: bold;
     outline: none;
     cursor: pointer;
+    margin-right: 20px;
+    width: 50%;
 }
 
-.button-reset{
+.button-reset {
     display: flex;
     justify-content: center;
     margin-top: 80px;
@@ -77,4 +79,53 @@ body{
     font-weight: bold;
     text-align: center;
 
+}
+
+.button-reset{
+    display: flex;
+    justify-content: center;
+    margin: 30px 80px;
+    gap: 10px;
+}
+
+.auto-play-button{
+    background-color: rgba(68, 181, 68, 0.485);
+    color: white;
+}
+
+.confirmation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.confirm-button,
+.cancel-button{
+    width: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.confirm-button{
+    background-color: green;
+}
+
+.confirm-button:hover{
+    background-color: rgb(8, 252, 8);
+}
+
+
+.cancel-button{
+    background-color: firebrick;
+    
+}
+
+.cancel-button:hover{
+    background-color: rgb(249, 15, 15);
+    
 }
